@@ -1,14 +1,17 @@
 {
-  "name": "truecaller-data-api",
+  "name": "truecaller-api",
   "version": "1.0.0",
-  "description": "API for Truecaller-like data",
+  "description": "API for Truecaller data lookup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vercel dev",
+    "start": "npm run dev"
   },
-  "dependencies": {
-    "@vercel/node": "^2.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "@vercel/node": "^1.12.1"
   },
-  "author": "Your Name",
+  "keywords": ["truecaller", "api", "vercel"],
+  "author": "Developer",
   "license": "MIT"
 }
